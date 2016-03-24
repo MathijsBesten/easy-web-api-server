@@ -22,5 +22,7 @@ namespace WEB_API2.Models
         public System.Data.Entity.DbSet<WEB_API2.Models.Game> Games { get; set; }
 
         public System.Data.Entity.DbSet<WEB_API2.Models.Log> Logs { get; set; }
+
+        public System.Data.Entity.DbSet<Web_API2.Models.Image> Images { get; set; }
     }
 }
